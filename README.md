@@ -1,3 +1,5 @@
 # Audio Denoising with Implicit Neural Representations (INRs)
 
 We investigate the use of Implicit Neural Representations (INR) for denoising audio signals corrupted by Gaussian noise. By leveraging frameworks such as HyperSound and SIREN, we demonstrate the capacity of INR to encode and reconstruct clean audio signals. Our findings show that HyperSound effectively reduces both high-frequency and low-frequency components in noise, significantly improving speech intelligibility (STOI), background noise quality (CBAK), and perceptual evaluation of speech quality (PESQ). In our experiments, HyperSound not only removes high-frequency noise but also mitigates low-frequency noise components. While SIREN exhibits some denoising ability, it is less consistent and effective, particularly in terms of signal-to-noise ratio (SSNR). Overall, the research highlights the potential of INR for robust audio denoising, with HyperSound showing superior performance in maintaining audio clarity and quality.
+
+[Project report](final_report.pdf)
